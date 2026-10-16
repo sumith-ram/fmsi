@@ -1,0 +1,36 @@
+{
+  "scope": "Historical saved results; not retrained during PA1R",
+  "compact": {
+    "labels_matched": 10542,
+    "examples": 10542,
+    "artifact_mib": 1.2626218795776367,
+    "local_batched_per_item_p50_ms": 0.0975345703082553,
+    "not_api_latency": true
+  },
+  "calibration": {
+    "brier_approx": 0.0077,
+    "ece_approx": 0.004
+  },
+  "human_review_rate_approx": 0.8741,
+  "commercial_lineage": "REVIEW_REQUIRED",
+  "speech": "RESEARCH_ONLY_ASR_QUALITY_LIMITED",
+  "multimodal": "RESEARCH_ONLY_GAIN_CONFOUNDED",
+  "origins": [
+    {
+      "path": "experiments/results/phase_6/compression/compact_b2_equivalence.json",
+      "sha256": "563a49fad5671037f23045556366be56aabcbb22f4bfc6583b54dcfd7e3fb0a4"
+    },
+    {
+      "path": "experiments/results/phase_5/calibration/C2_isotonic/test_metrics.json",
+      "sha256": "43f85ca9adc1236234cd12888e08138eccff73ef8427a689419a39c853a24467"
+    },
+    {
+      "path": "experiments/results/phase_5/uncertainty/abstention/selective_prediction_table.json",
+      "sha256": "d8dcf076911938b96d18cdc879267f9dc8b4a8c7189113628e354aec0cede4bf"
+    },
+    {
+      "path": "release/release_manifest.json",
+      "sha256": "a288d8358161399dd4b5775a68e90b312608415dbb7592514d04ce06ead892c8"
+    }
+  ]
+}

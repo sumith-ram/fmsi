@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "owner": "sumith-ram",
+  "export": "fmsi",
+  "publication_status": "AWAITING_OWNER_REVIEW",
+  "payload_scope": "case-study documentation and selected captures; no application source",
+  "membership_rule": "Only listed payload files are selected; no other files or parent directories may be uploaded. Selection is not a license grant.",
+  "self_integrity": "This manifest excludes its own bytes to avoid recursive self-hashing. Its exact size/SHA-256 and every other staged file are recorded in the external GITHUB_PUBLISH_INVENTORY.json and GITHUB_PUBLISH_MANIFEST.md.",
+  "files": [
+    {
+      "relative_path": ".gitignore",
+      "size": 254,
+      "sha256": "6d5ae35ac820869adbfa84aa23ea8c325226c4fa061c74ed8be9bb160f9863c3",
+      "category": "metadata",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "ARCHITECTURE.md",
+      "size": 837,
+      "sha256": "28de4a5cac1d9761d2d266001c09b79eae3802cf5bf2845f7fca9dd07119f0ab",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "assets/interface-preferences.jpg",
+      "size": 54836,
+      "sha256": "a06e51c43bcc73064ea5ea3f8651f8e6941ef61d2105a1b31a81216aed9a983d",
+      "category": "screenshot",
+      "source_origin": "canonical:fmsi/experiments/reports/fmsi_visual_pass3_settings_dark.png",
+      "publication_reason": "Interface preferences with server/model/policy settings read-only"
+    },
+    {
+      "relative_path": "assets/moderation-workspace.jpg",
+      "size": 49894,
+      "sha256": "2c20454f6f588c47f46524a8ac717931044e45de4c5e11079cf7920d031cf06b",
+      "category": "screenshot",
+      "source_origin": "canonical:fmsi/experiments/reports/fmsi_visual_pass3_moderate_dark.png",
+      "publication_reason": "Empty text moderation/review workspace and separate research affordances"
+    },
+    {
+      "relative_path": "assets/overview.jpg",
+      "size": 49176,
+      "sha256": "03f4528e7219f40432506f76a2eb1d9a148811b7175cdf86b1d204f4bcdf2f0d",
+      "category": "screenshot",
+      "source_origin": "canonical:fmsi/experiments/reports/fmsi_visual_pass3_overview_dark.png",
+      "publication_reason": "Historical dark overview and readiness display"
+    },
+    {
+      "relative_path": "evidence/results.json",
+      "size": 1279,
+      "sha256": "2ff13c92be3f33605b2f93e43ec7073a54fd8fc9a87efd8b6b03460640af7552",
+      "category": "aggregate_evidence",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Selected aggregate numerical evidence; no raw result file or records copied"
+    },
+    {
+      "relative_path": "EVIDENCE.md",
+      "size": 1138,
+      "sha256": "adeaa07257195a0c88ae957f78d8c85ca0318994fbee3ae623c9ac717ead589f",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "GITHUB_METADATA.md",
+      "size": 906,
+      "sha256": "6afe01e653ebc9db1cd7ace24171dd5aee66aef4220f7044a8cdcedb414a348d",
+      "category": "metadata",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "PROVENANCE.md",
+      "size": 1083,
+      "sha256": "5447354f31c55714d0729b61a917357f468b2a61387dbc23b61aebcd3573b5ba",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "README.md",
+      "size": 6566,
+      "sha256": "81a87ec1370838262bc3674b651d4ae2e645b0e39d5ab2e957a9d88504c6afb9",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "REPRODUCIBILITY.md",
+      "size": 922,
+      "sha256": "7125bd75a7a2acdc685574b88a81479122192d0e27941b3bcb0e3b588d9d82b1",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "SCREENSHOT_REGISTER.md",
+      "size": 3486,
+      "sha256": "83f23ba61e33ef65891a7eb94dcfdf9bab90b55c4cf7da6956ac548953c9f77e",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Per-image content/provenance review and explicit limitations"
+    },
+    {
+      "relative_path": "SOURCE_RELEASE_DECISION.md",
+      "size": 2798,
+      "sha256": "c110b4044306d68e98925871481bc2b3fab09a732b4727e6ece411d8f7ba99d7",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "VALIDATION.md",
+      "size": 1715,
+      "sha256": "80d78608fd9a46fdb9de4edb6e0b279d39e77036cf46d2c103000f690c285c10",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "New present-state checks separated from immutable historical evidence"
+    }
+  ]
+}
